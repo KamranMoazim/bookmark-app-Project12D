@@ -1,0 +1,12 @@
+.cards__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3rem;
+  justify-content: space-around;
+}
+.form_container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
