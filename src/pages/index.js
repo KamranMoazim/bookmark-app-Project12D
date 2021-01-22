@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react"
 import { useQuery, useMutation } from '@apollo/client';
 import gql from 'graphql-tag';
 import "./style.css";
-import Card from '../components/card';
+// import Card from '../components/card';
+import Card from '../components/Card';
 
 const GET_BOOKMARKS = gql`
 {
