@@ -20,7 +20,7 @@ const typeDefs = gql`
 
 
 
-var adminClient = new faunadb.Client({ secret: process.env.FAUNADB_SECRET_KEY});
+var adminClient = new faunadb.Client({ secret: "fnAD_7fdDxACADm8t6xyTjNTXTHFaCTppRj6smkK" }); //  process.env.FAUNADB_SECRET_KEY
 
 const resolvers = {
   Query: {
